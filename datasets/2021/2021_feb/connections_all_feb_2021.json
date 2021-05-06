@@ -1,0 +1,70 @@
+{
+    "nodes": [{
+        "id": 22,
+        "name": "УНІАН"
+    },{
+        "id": 15,
+        "name": "ТСН"
+    },{
+        "id": 20,
+        "name": "Обозрєватель"
+    },{
+        "id": 4,
+        "name": "Гордон"
+    },{
+        "id": 5,
+        "name": "Українські новини"
+    },{
+        "id": 2,
+        "name": "Страна"
+    },{
+        "id": 25,
+        "name": "Політека"
+    },{
+        "id": 21,
+        "name": "Знай"
+    }],
+
+    "edges": [{
+        "source": 22,
+        "target": 15,
+        "reference_percent": 35,
+        "weight": "35px"
+    },{
+        "source": 15,
+        "target": 22,
+        "reference_percent": 19,
+        "weight": "19px"
+    },{
+        "source": 20,
+        "target": 4,
+        "reference_percent": 11,
+        "weight": "11px"
+    },{
+        "source": 4,
+        "target": 20,
+        "reference_percent": 14,
+        "weight": "14px"
+    },{
+        "source": 5,
+        "target": 2,
+        "reference_percent": 20,
+        "weight": "20px"
+    },{
+        "source": 2,
+        "target": 5,
+        "reference_percent": 20,
+        "weight": "20px"
+    },{
+        "source": 25,
+        "target": 21,
+        "reference_percent": 16,
+        "weight": "16px"
+    },{
+        "source": 21,
+        "target": 25,
+        "reference_percent": 8,
+        "weight": "8px"
+    }
+    ]
+}

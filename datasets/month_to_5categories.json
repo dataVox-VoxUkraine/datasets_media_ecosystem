@@ -1,0 +1,6 @@
+month_to_5categories = 
+{
+	"2021_feb": ["incidents", "politics", "covid", "economics", "culture"],
+	"2021_mar": ["politics", "incidents", "covid", "economics", "culture"]
+	
+}
