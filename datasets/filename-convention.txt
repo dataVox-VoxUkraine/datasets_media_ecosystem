@@ -1,0 +1,59 @@
+﻿"{type}_{category}_{month}_{year}.csv", where:
+
+
+type is strictly one of:
+        topics, 
+        experts,
+        category,
+        word_cloud,
+        sphere,
+        politicians,
+        network,
+        connections 
+         
+category is strictly one of:
+        all,
+        war,
+        economics,
+        lifestyle,
+        affairs,
+        other,
+        quarantine,
+        covid,
+        culture,
+        incidents,
+        science,
+        weather,
+        politics,
+        world,
+        sport,
+        society
+        
+category_names = {
+        "war": "Війна/Донбас",
+        "economics": "Економіка",
+        "lifestyle": "Життя/lifestyle",
+        "affairs": "Закордонна політика",
+        "other": "Інше",
+        "quarantine": "Карантин",
+        "covid": "Коронавірус",
+        "culture": "Культура/шоу-бізнес",
+        "incidents": "Інциденти",
+        "science": "Наука/технології",
+        "weather": "Погода",
+        "politics": "Політика",
+        "world": "Світ",
+        "sport": "Спорт",
+        "society": "Суспільство",
+}
+
+
+
+
+month one of: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12
+year: YYYY
+
+
+Example:
+politicians_politics_01_2021.csv
+politics_all_02_2021.csv
