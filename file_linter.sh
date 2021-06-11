@@ -2,11 +2,7 @@
 files_match=true
 for dir in ./datasets/20??/*/; do
    files="$dir*"
-   echo "$files"
-   echo "${dir:(-3):2}"
-   echo "${dir:(-8):4}"
    d="${dir:(-3):2}_${dir:(-8):4}"
-   echo "$d"
    for f in $files; do
       if [[ $f != *"$d"* ]]; then
          echo "$f MUST NOT be in $dir"
