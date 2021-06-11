@@ -1,14 +1,13 @@
 #!/bin/bash
 files_match=true
 for dir in ./datasets/20??/*/; do
-   cd $ROOT_DIR
-   cd $dir
+   files="$dir*"
    echo "$dir"
    echo "${dir:(-3):2}"
    echo "${dir:(-8):4}"
    d="${dir:(-3):2}_${dir:(-8):4}"
    echo "$d"
-   for f in *; do
+   for f in files; do
       if [[ $f != *"$d"* ]]; then
          echo "$f MUST NOT be in $dir"
          files_match=false
