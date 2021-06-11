@@ -6,7 +6,9 @@ name: FileLint
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ master ]
+    branches:
+      - master
+      - add-filename-check
   pull_request:
     branches: [ master ]
 
