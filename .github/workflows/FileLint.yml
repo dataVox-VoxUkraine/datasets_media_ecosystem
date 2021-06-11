@@ -27,11 +27,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout repository
         uses: actions/checkout@v2
-      - name: List files in the repository
-        run: |
-          ls "${{ github.workspace }}"
-          env:
-            ROOT_DIR: ${{ github.workspace }}
+        
       # Runs a single command using the runners shell
       - name: Check filenames
         run: |
