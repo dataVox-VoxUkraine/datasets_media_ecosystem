@@ -31,6 +31,6 @@ jobs:
       # Runs a single command using the runners shell
       - name: Check filenames
         run: |
-          sh ./file_linter.sh
+          bash ./file_linter.sh
 
       
