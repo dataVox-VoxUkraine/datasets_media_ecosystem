@@ -1,6 +1,7 @@
 #!/bin/bash
 files_match=true
 for dir in ./datasets/20??/*/; do
+   cd $(git rev-parse --git-dir)
    cd $dir
    echo "$dir"
    echo "${dir:(-3):2}"
