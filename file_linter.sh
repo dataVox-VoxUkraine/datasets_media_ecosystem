@@ -2,6 +2,7 @@
 files_match=true
 for dir in ./datasets/20??/*/; do
    cd $dir
+   echo "$dir"
    d="${dir:(-3):2}_${dir:(-13):4}"
    echo "$d"
    for f in *; do
