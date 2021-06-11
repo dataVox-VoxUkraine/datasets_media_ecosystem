@@ -1,7 +1,7 @@
 #!/bin/bash
 files_match=true
 for dir in ./datasets/20??/*/; do
-   cd "${{ github.workspace }}"
+   cd $ROOT
    cd $dir
    echo "$dir"
    echo "${dir:(-3):2}"
