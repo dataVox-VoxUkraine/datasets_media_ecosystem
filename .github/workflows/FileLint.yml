@@ -6,13 +6,15 @@ name: FileLint
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ master ]
+    branches:
+      - master
+      - add-filename-check
   pull_request:
     branches: [ master ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-
+  
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
@@ -24,11 +26,11 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout repository
-      - uses: actions/checkout@v2
-
+        uses: actions/checkout@v2
+        
       # Runs a single command using the runners shell
       - name: Check filenames
         run: |
-          sh ./file_linter.sh
+          bash ./file_linter.sh
 
       
