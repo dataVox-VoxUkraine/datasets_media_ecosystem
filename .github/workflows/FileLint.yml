@@ -31,7 +31,7 @@ jobs:
         run: |
           ls "${{ github.workspace }}"
           env:
-          ROOT_DIR: ${{ github.workspace }}
+            ROOT_DIR: ${{ github.workspace }}
       # Runs a single command using the runners shell
       - name: Check filenames
         run: |
