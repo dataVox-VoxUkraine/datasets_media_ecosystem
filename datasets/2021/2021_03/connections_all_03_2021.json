@@ -1,62 +1,62 @@
 {
     "nodes": [{
-        "id": 21,
+        "id": 20,
         "name": "Obozrevatel"
     },{
         "id": 6,
         "name": "Сьогодні"
     },{
-        "id": 14,
+        "id": 13,
         "name": "НВ"
     },{
-        "id": 15,
+        "id": 14,
         "name": "Суспільне"
     },{
-        "id": 13,
+        "id": 12,
         "name": "Інтерфакс-Україна"
     },{
-        "id": 22,
+        "id": 21,
         "name": "Гордон"
     }],
 
     "edges": [{
-        "source": 21,
+        "source": 20,
         "target": 6,
         "reference_percent": 16,
         "weight": "16px"
     },{
         "source": 6,
-        "target": 21,
+        "target": 20,
         "reference_percent": 16,
         "weight": "16px"
     },{
-        "source": 14,
-        "target": 15,
+        "source": 13,
+        "target": 14,
         "reference_percent": 17,
         "weight": "17px"
     },{
-        "source": 15,
-        "target": 14,
+        "source": 14,
+        "target": 13,
         "reference_percent": 27,
         "weight": "27px"
     },{
-        "source": 13,
-        "target": 14,
+        "source": 12,
+        "target": 13,
         "reference_percent": 19,
         "weight": "19px"
     },{
-        "source": 14,
-        "target": 13,
+        "source": 13,
+        "target": 12,
         "reference_percent": 13,
         "weight": "13px"
     },{
-        "source": 22,
+        "source": 21,
         "target": 6,
         "reference_percent": 12,
         "weight": "12px"
     },{
         "source": 6,
-        "target": 22,
+        "target": 21,
         "reference_percent": 7,
         "weight": "7px"
     }
