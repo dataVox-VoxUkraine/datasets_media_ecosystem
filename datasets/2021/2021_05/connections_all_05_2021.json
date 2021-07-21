@@ -1,0 +1,38 @@
+{
+    "nodes": [{
+        "id": 3,
+        "name": "ТСН"
+    },{
+        "id": 6,
+        "name": "УНІАН"
+    },{
+        "id": 14,
+        "name": "Укрінформ"
+    },{
+        "id": 12,
+        "name": "Суспільне"
+    }],
+
+    "edges": [{
+        "source": 3,
+        "target": 6,
+        "reference_percent": 15,
+        "weight": "15px"
+    },{
+        "source": 6,
+        "target": 3,
+        "reference_percent": 29,
+        "weight": "29px"
+    },{
+        "source": 14,
+        "target": 12,
+        "reference_percent": 15,
+        "weight": "15px"
+    },{
+        "source": 12,
+        "target": 14,
+        "reference_percent": 30,
+        "weight": "30px"
+    }
+    ]
+}
