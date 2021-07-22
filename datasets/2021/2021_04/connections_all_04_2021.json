@@ -1,51 +1,60 @@
 {
     "nodes": [{
-        "id": 27,
+        "id": 1,
         "name": "Obozrevatel"
     },{
-        "id": 6,
+        "id": 2,
         "name": "Сьогодні"
     },{
-        "id": 15,
+        "id": 3,
+        "name": "Страна.ua"
+    },{
+        "id": 4,
+        "name": "Українські новини"
+    },{
+        "id": 5,
+        "name": "LB.ua"
+    },{
+        "id": 6,
         "name": "Укрінформ"
-    },{
-        "id": 13,
-        "name": "Суспільне"
-    },{
-        "id": 37,
-        "name": "Politeka"
     }],
 
     "edges": [{
-        "source": 27,
-        "target": 6,
-        "reference_percent": 22,
-        "weight": "22px"
+        "source": 1,
+        "target": 2,
+        "reference_percent": 11,
+        "weight": "11px"
     },{
-        "source": 6,
-        "target": 27,
-        "reference_percent": 12,
-        "weight": "12px"
-    },{
-        "source": 15,
-        "target": 13,
-        "reference_percent": 13,
-        "weight": "13px"
-    },{
-        "source": 13,
-        "target": 15,
-        "reference_percent": 24,
-        "weight": "24px"
-    },{
-        "source": 6,
-        "target": 37,
+        "source": 2,
+        "target": 1,
         "reference_percent": 7,
         "weight": "7px"
+    },
+    
+    
+    {
+        "source": 3,
+        "target": 4,
+        "reference_percent": 6,
+        "weight": "6px"
     },{
-        "source": 37,
+        "source": 4,
+        "target": 3,
+        "reference_percent": 6,
+        "weight": "6px"
+    },
+    
+    
+    {
+        "source": 5,
         "target": 6,
-        "reference_percent": 7,
-        "weight": "7px"
+        "reference_percent": 10,
+        "weight": "10px"
+    },{
+        "source": 6,
+        "target": 5,
+        "reference_percent": 6,
+        "weight": "6px"
     }
     ]
 }
