@@ -1,38 +1,58 @@
 {
     "nodes": [{
+        "id": 1,
+        "name": "Суспільне"
+    },{
+        "id": 2,
+        "name": "Укрінформ"
+    },{
         "id": 3,
         "name": "ТСН"
     },{
-        "id": 6,
+        "id": 4,
         "name": "УНІАН"
     },{
-        "id": 14,
-        "name": "Укрінформ"
+        "id": 5,
+        "name": "Страна.ua"
     },{
-        "id": 12,
-        "name": "Суспільне"
+        "id": 6,
+        "name": "Українські новини"
     }],
 
     "edges": [{
-        "source": 3,
-        "target": 6,
+        "source": 1,
+        "target": 2,
+        "reference_percent": 13,
+        "weight": "13px"
+    },{
+        "source": 2,
+        "target": 1,
         "reference_percent": 15,
         "weight": "15px"
+    },
+    
+    {
+        "source": 3,
+        "target": 4,
+        "reference_percent": 7,
+        "weight": "7px"
+    },{
+        "source": 4,
+        "target": 3,
+        "reference_percent": 26,
+        "weight": "26px"
+    },
+    
+    {
+        "source": 5,
+        "target": 6,
+        "reference_percent": 9,
+        "weight": "9px"
     },{
         "source": 6,
-        "target": 3,
-        "reference_percent": 29,
-        "weight": "29px"
-    },{
-        "source": 14,
-        "target": 12,
-        "reference_percent": 15,
-        "weight": "15px"
-    },{
-        "source": 12,
-        "target": 14,
-        "reference_percent": 30,
-        "weight": "30px"
+        "target": 5,
+        "reference_percent": 5,
+        "weight": "5px"
     }
     ]
 }
